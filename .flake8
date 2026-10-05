@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 120
+# E266 = too many leading '#' for block comment
+# E501 = line too long
+# P103 = invalid docstring quote
+# W503 = line break before binary operator
+# E741 = Ambiguous variable name
+# E704 = multiple statements in one line
+# E701 = multiple statements on one line (colon)
+# E402 = module level import not at top of file
+# E203 = whitespace before ':'
+ignore = E266, E501, P103, W503, F405, E741, E704, E701, E402, E203
+jobs = 8
