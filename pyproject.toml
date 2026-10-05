@@ -11,13 +11,11 @@ readme = "README.md"
 license = {text = "GPL-3.0-only"}
 
 
-[tool.pdm]
-distribution = false
-
 [dependency-groups]
 dev = [
     "mypy>=2.4.0",
     "pre-commit>=4.6.2",
+    "black>=26.10.0",
 ]
 
 [tool.black]
@@ -39,3 +37,6 @@ warn_redundant_casts = true
 warn_unused_ignores = true
 warn_return_any = true
 strict_equality = true
+
+[tool.pdm]
+distribution = false
