@@ -5,7 +5,7 @@ from Cryptodome.Hash import SHA256
 from Cryptodome.PublicKey import ECC
 from Cryptodome.Signature import DSS
 
-from fampay.constants import FamAppConstants
+from src.constants import FamAppConstants
 
 
 class SignatureEngine:

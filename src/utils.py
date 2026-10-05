@@ -1,5 +1,5 @@
-from fampay.constants import FamAppConstants
-from fampay.phone import AndroidPhone
+from src.constants import FamAppConstants
+from src.phone import AndroidPhone
 
 
 def common_headers(phone: AndroidPhone) -> dict[str, str]:
