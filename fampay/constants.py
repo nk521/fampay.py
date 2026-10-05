@@ -13,6 +13,14 @@ class _FamAppApiStore:
 
 
 @dataclass(frozen=True, slots=True)
-class FamAppConsts:
-    VERSION_CODE = "2602003"
+class FamAppConstants:
+    APP_VERSION_CODE = "2602003"  # FamBase.t
+    APP_VERSION_NAME = "26.2.3"  # FamBase.u
+    PLATFORM = "1"  # Android
+
+    # SHA-1 over the APK signing certificate DER (extracted from
+    # META-INF/BNDLTOOL.RSA of 26.2.3). Server pins this value.
+    APP_CERT_SHA1 = "43A2BD6824215BE3454B203BE7EC9E5A926BDDE7"
+    SIGNATURE_VERSION = "1"
+
     api = _FamAppApiStore()

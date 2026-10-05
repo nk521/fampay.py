@@ -22,6 +22,6 @@ Sending the SMS to any VMN should grant us access.
 
 """
 
-from fampay.constants import FamAppConsts
+from fampay.constants import FamAppConstants
 
-assert FamAppConsts.VERSION_CODE == "2602003"
+assert FamAppConstants.APP_VERSION_CODE == "2602003"
